@@ -33,7 +33,10 @@ it('multiply(a, b) multiplies two numbers and returns the result', function() {
 })
 */
 
-
+function multiply(x,y){
+  var z =y*x;
+  return z;
+}
 
 /*
 
