@@ -89,6 +89,10 @@ describe('makeInt(n)', function() {
 })
 */
 
+function makeInt(x){
+  var y=parseInt(x);
+  return y;
+}
 
 /*
 describe('preserveDecimal(n)', function() {
