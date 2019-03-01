@@ -90,7 +90,7 @@ describe('makeInt(n)', function() {
 */
 
 function makeInt(x){
-  var y=parseInt(x);
+  var y=parseInt(x, 10);
   return y;
 }
 
