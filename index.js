@@ -68,9 +68,9 @@ it('dec(n) decrements n and returns the result', function() {
 */
 
 function dec(x){
-  var y=x;
-  var z=x--;
-  return z;
+  var x=x;
+  x--;
+  return x;
 }
 
 /*
