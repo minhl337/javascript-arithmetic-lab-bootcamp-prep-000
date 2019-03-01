@@ -44,6 +44,11 @@ it('divide(a, b) divides a by b and returns the result', function() {
 })
 */
 
+function divide(x,y){
+  var z = x/y;
+  return z;
+}
+
 /*
 it('inc(n) increments n and returns the result', function() {
   expect(inc(a)).toEqual(a + 1)
