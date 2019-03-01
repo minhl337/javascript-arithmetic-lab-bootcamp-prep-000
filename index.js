@@ -24,7 +24,7 @@ it('subtract(a, b) subtracts b from a and returns the result', function() {
 */
 
 function subtract(x,y){
-  var z = x+y;
+  var z = x-y;
   return z;
 }
 /*
