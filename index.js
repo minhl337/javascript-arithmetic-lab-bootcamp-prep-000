@@ -105,3 +105,9 @@ describe('preserveDecimal(n)', function() {
   })
 })
 */
+
+function preserveDecimal(x){
+  var y=parseFloat(x,10);
+  return y;
+}
+}
