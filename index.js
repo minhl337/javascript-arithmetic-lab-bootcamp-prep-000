@@ -69,7 +69,7 @@ it('dec(n) decrements n and returns the result', function() {
 
 function dec(x){
   var y=x;
-  var z=y--;
+  var z=x--;
   return z;
 }
 
