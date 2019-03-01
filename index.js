@@ -56,7 +56,8 @@ it('inc(n) increments n and returns the result', function() {
 */
 
 function inc(x){
-  var y=x++;
+  var y=x;
+  var z=y++;
   return y;
 }
 
