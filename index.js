@@ -21,7 +21,13 @@ function add(x,y){
 it('subtract(a, b) subtracts b from a and returns the result', function() {
   expect(subtract(a, b)).toEqual(a - b)
 })
+*/
 
+function subtract(x,y){
+  var z = x+y;
+  return z;
+}
+/*
 it('multiply(a, b) multiplies two numbers and returns the result', function() {
   expect(multiply(a, b)).toEqual(a * b)
 })
