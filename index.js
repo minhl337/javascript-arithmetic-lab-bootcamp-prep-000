@@ -67,7 +67,11 @@ it('dec(n) decrements n and returns the result', function() {
 })
 */
 
-
+function dec(x){
+  var y=x;
+  var z=y--;
+  return z;
+}
 
 /*
 describe('makeInt(n)', function() {
