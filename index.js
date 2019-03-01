@@ -31,6 +31,11 @@ function subtract(x,y){
 it('multiply(a, b) multiplies two numbers and returns the result', function() {
   expect(multiply(a, b)).toEqual(a * b)
 })
+*/
+
+
+
+/*
 
 it('divide(a, b) divides a by b and returns the result', function() {
   expect(divide(a, b)).toEqual(a / b)
